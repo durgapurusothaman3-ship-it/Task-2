@@ -14,7 +14,6 @@ This project analyzes a **SuperStore retail dataset** using Python. The analysis
 * Google Colab
 
 ---
-
 ## 2. Import Libraries
 
 ```python
