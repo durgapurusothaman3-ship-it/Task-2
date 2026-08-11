@@ -107,7 +107,7 @@ category_sales = df.groupby(
 
 category_sales.plot(kind='bar')
 ```
-OUTPUT
+
 <img width="922" height="658" alt="image" src="https://github.com/user-attachments/assets/d98077d7-b72b-4c57-afca-33083b0baa45" />
 
 **Purpose:** Compares total sales between product categories.
@@ -127,7 +127,7 @@ OUTPUT
 ```python
 sns.histplot(df['Sales Amount'], bins=30)
 ```
-OUTPUT
+
 <img width="912" height="604" alt="image" src="https://github.com/user-attachments/assets/92ae16b7-253e-4e15-9894-2f4ba339dbb5" />
 
 **Purpose:** Shows how sales values are distributed.
@@ -149,7 +149,7 @@ sns.barplot(
     y="Profit"
 )
 ```
-OUTPUT
+
 <img width="810" height="588" alt="image" src="https://github.com/user-attachments/assets/171296a4-c4ec-4a1d-8097-a549b8c96ce1" />
 
 **Purpose:** Compares the average profit across categories.
@@ -171,7 +171,7 @@ sns.barplot(
     y="Sales"
 )
 ```
-OUTPUT
+
 <img width="798" height="581" alt="image" src="https://github.com/user-attachments/assets/ffe5307b-3626-4c11-96b5-b42ceb056b38" />
 
 **Purpose:** Compares sales values across categories.
@@ -189,7 +189,7 @@ The categories show similar sales performance, with Office Supplies performing s
 ```python
 sns.boxplot(data=df, y="Profit")
 ```
-OUTPUT
+
 <img width="848" height="528" alt="image" src="https://github.com/user-attachments/assets/e44972f3-7c75-46da-8833-3a8b72307d1a" />
 
 **Purpose:** Understands the overall distribution of profit.
@@ -211,7 +211,7 @@ sns.boxplot(
     y="Profit"
 )
 ```
-OUTPUT
+
 <img width="777" height="576" alt="image" src="https://github.com/user-attachments/assets/1d54a109-c616-4b0d-81e4-5a6ca0d33162" />
 
 **Purpose:** Compares profit variation between categories.
@@ -249,7 +249,7 @@ sns.scatterplot(
     y="Profit"
 )
 ```
-OUTPUT
+
 <img width="827" height="578" alt="image" src="https://github.com/user-attachments/assets/39b5a03c-40dc-4cc4-822b-482f2b4d80e8" />
 
 **Purpose:** Studies the relationship between discount and profit.
@@ -302,7 +302,7 @@ corr = numeric_df.corr()
 ```python
 sns.heatmap(corr, annot=True)
 ```
-OUTPUT
+
 <img width="807" height="635" alt="image" src="https://github.com/user-attachments/assets/7b997d59-c2b8-40ee-b095-6e855345e75a" />
 
 **Purpose:** Displays all numerical correlations visually.
